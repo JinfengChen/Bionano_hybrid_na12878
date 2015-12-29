@@ -1,0 +1,365 @@
+10
+
+dir
+3527
+http://svn.bnm.local:81/svn/informatics/AnalysisTools/HybridScaffold/scripts/perl5/5.14.4
+http://svn.bnm.local:81/svn/informatics
+
+
+
+2014-11-20T05:11:39.927044Z
+3411
+psheth
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+40962d26-bc18-a646-a739-3526a61449a6
+
+HTTP
+dir
+
+File
+dir
+
+Test
+dir
+
+B
+dir
+
+IO.pm
+file
+
+
+
+
+2014-10-01T19:04:31.788522Z
+9b106c806b4dd6f3449a2f4bbae07b94
+2014-09-28T22:57:49.238573Z
+3281
+psheth
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+416
+
+TAP
+dir
+
+Module
+dir
+
+Net
+dir
+
+x86_64-linux-thread-multi
+dir
+
+Sub
+dir
+
+PerlIO
+dir
+
+Package
+dir
+
+namespace
+dir
+
+Encode
+dir
+
+XML
+dir
+
+LWP
+dir
+
+HTML
+dir
+
+Config
+dir
+
+Class
+dir
+
+auto
+dir
+
+JSON
+dir
+
+lwptut.pod
+file
+
+
+
+
+2014-09-10T17:01:20.285065Z
+eb00e1687f9e1da9394119e4b28df127
+2014-08-31T22:54:04.601571Z
+3162
+psheth
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+25481
+
+App
+dir
+
+ExtUtils
+dir
+
+CPAN
+dir
+
+install.pm
+file
+
+
+
+
+2014-09-10T17:01:20.289065Z
+ce29d132a3f111406573baa19fbfd45c
+2014-08-31T22:54:04.601571Z
+3162
+psheth
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+975
+
+WWW
+dir
+
+DateTime
+dir
+
+lwpcook.pod
+file
+
+
+
+
+2014-09-10T17:01:20.289065Z
+3162bb951f339d296c5b39b8fe914e07
+2014-08-31T22:54:04.601571Z
+3162
+psheth
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+9265
+
+URI
+dir
+
+Dist
+dir
+
+Capture
+dir
+
+PerlIO.pm
+file
+
+
+
+
+2014-11-12T23:02:12.820225Z
+3b6158d7a490f429a795d171d38b4c90
+2014-10-30T06:34:45.518081Z
+3363
+psheth
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+10487
+
+IO
+dir
+
+Data
+dir
+
+Parse
+dir
+
+URI.pm
+file
+
+
+
+
+2014-09-10T17:01:20.293064Z
+3311050d043dc322ef0b435534f88c18
+2014-08-31T22:54:04.601571Z
+3162
+psheth
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+34357
+
+List
+dir
+
+LWP.pm
+file
+
+
+
+
+2014-09-10T17:01:20.297064Z
+88e3ca7692c8e1ce26b7eca988e30508
+2014-08-31T22:54:04.601571Z
+3162
+psheth
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+21656
+
+Try
+dir
+

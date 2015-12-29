@@ -1,0 +1,173 @@
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/informatics/!svn/ver/3162/AnalysisTools/HybridScaffold/scripts/perl5/5.14.4/ExtUtils
+END
+MANIFEST.SKIP
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/informatics/!svn/ver/3162/AnalysisTools/HybridScaffold/scripts/perl5/5.14.4/ExtUtils/MANIFEST.SKIP
+END
+MM_VOS.pm
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/informatics/!svn/ver/3162/AnalysisTools/HybridScaffold/scripts/perl5/5.14.4/ExtUtils/MM_VOS.pm
+END
+Helpers.pm
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/informatics/!svn/ver/3162/AnalysisTools/HybridScaffold/scripts/perl5/5.14.4/ExtUtils/Helpers.pm
+END
+MM_NW5.pm
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/informatics/!svn/ver/3162/AnalysisTools/HybridScaffold/scripts/perl5/5.14.4/ExtUtils/MM_NW5.pm
+END
+Liblist.pm
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/informatics/!svn/ver/3162/AnalysisTools/HybridScaffold/scripts/perl5/5.14.4/ExtUtils/Liblist.pm
+END
+MM_Win95.pm
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/informatics/!svn/ver/3162/AnalysisTools/HybridScaffold/scripts/perl5/5.14.4/ExtUtils/MM_Win95.pm
+END
+Config.pm
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/informatics/!svn/ver/3162/AnalysisTools/HybridScaffold/scripts/perl5/5.14.4/ExtUtils/Config.pm
+END
+Mkbootstrap.pm
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/informatics/!svn/ver/3162/AnalysisTools/HybridScaffold/scripts/perl5/5.14.4/ExtUtils/Mkbootstrap.pm
+END
+Manifest.pm
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/informatics/!svn/ver/3162/AnalysisTools/HybridScaffold/scripts/perl5/5.14.4/ExtUtils/Manifest.pm
+END
+testlib.pm
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/informatics/!svn/ver/3162/AnalysisTools/HybridScaffold/scripts/perl5/5.14.4/ExtUtils/testlib.pm
+END
+InstallPaths.pm
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/informatics/!svn/ver/3162/AnalysisTools/HybridScaffold/scripts/perl5/5.14.4/ExtUtils/InstallPaths.pm
+END
+MM.pm
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/informatics/!svn/ver/3162/AnalysisTools/HybridScaffold/scripts/perl5/5.14.4/ExtUtils/MM.pm
+END
+MM_AIX.pm
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/informatics/!svn/ver/3162/AnalysisTools/HybridScaffold/scripts/perl5/5.14.4/ExtUtils/MM_AIX.pm
+END
+MM_UWIN.pm
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/informatics/!svn/ver/3162/AnalysisTools/HybridScaffold/scripts/perl5/5.14.4/ExtUtils/MM_UWIN.pm
+END
+MM_Unix.pm
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/informatics/!svn/ver/3162/AnalysisTools/HybridScaffold/scripts/perl5/5.14.4/ExtUtils/MM_Unix.pm
+END
+MM_Darwin.pm
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/informatics/!svn/ver/3162/AnalysisTools/HybridScaffold/scripts/perl5/5.14.4/ExtUtils/MM_Darwin.pm
+END
+MM_DOS.pm
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/informatics/!svn/ver/3162/AnalysisTools/HybridScaffold/scripts/perl5/5.14.4/ExtUtils/MM_DOS.pm
+END
+Mksymlists.pm
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/informatics/!svn/ver/3162/AnalysisTools/HybridScaffold/scripts/perl5/5.14.4/ExtUtils/Mksymlists.pm
+END
+MM_Any.pm
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/informatics/!svn/ver/3162/AnalysisTools/HybridScaffold/scripts/perl5/5.14.4/ExtUtils/MM_Any.pm
+END
+MM_BeOS.pm
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/informatics/!svn/ver/3162/AnalysisTools/HybridScaffold/scripts/perl5/5.14.4/ExtUtils/MM_BeOS.pm
+END
+MY.pm
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/informatics/!svn/ver/3162/AnalysisTools/HybridScaffold/scripts/perl5/5.14.4/ExtUtils/MY.pm
+END
+MM_Cygwin.pm
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/informatics/!svn/ver/3162/AnalysisTools/HybridScaffold/scripts/perl5/5.14.4/ExtUtils/MM_Cygwin.pm
+END
+MM_Win32.pm
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/informatics/!svn/ver/3162/AnalysisTools/HybridScaffold/scripts/perl5/5.14.4/ExtUtils/MM_Win32.pm
+END
+MM_MacOS.pm
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/informatics/!svn/ver/3162/AnalysisTools/HybridScaffold/scripts/perl5/5.14.4/ExtUtils/MM_MacOS.pm
+END
+MM_OS2.pm
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/informatics/!svn/ver/3162/AnalysisTools/HybridScaffold/scripts/perl5/5.14.4/ExtUtils/MM_OS2.pm
+END
+MakeMaker.pm
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/informatics/!svn/ver/3162/AnalysisTools/HybridScaffold/scripts/perl5/5.14.4/ExtUtils/MakeMaker.pm
+END
+MM_VMS.pm
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/informatics/!svn/ver/3162/AnalysisTools/HybridScaffold/scripts/perl5/5.14.4/ExtUtils/MM_VMS.pm
+END
+MM_QNX.pm
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/informatics/!svn/ver/3162/AnalysisTools/HybridScaffold/scripts/perl5/5.14.4/ExtUtils/MM_QNX.pm
+END

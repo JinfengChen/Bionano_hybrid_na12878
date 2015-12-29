@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/informatics/!svn/ver/3162/AnalysisTools/HybridScaffold/scripts/perl5/5.14.4/Test
+END
+Fatal.pm
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/informatics/!svn/ver/3162/AnalysisTools/HybridScaffold/scripts/perl5/5.14.4/Test/Fatal.pm
+END
+Warnings.pm
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/informatics/!svn/ver/3162/AnalysisTools/HybridScaffold/scripts/perl5/5.14.4/Test/Warnings.pm
+END
+HACKING.pod
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/informatics/!svn/ver/3162/AnalysisTools/HybridScaffold/scripts/perl5/5.14.4/Test/HACKING.pod
+END
+Requires.pm
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/informatics/!svn/ver/3162/AnalysisTools/HybridScaffold/scripts/perl5/5.14.4/Test/Requires.pm
+END
+Output.pm
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/informatics/!svn/ver/3162/AnalysisTools/HybridScaffold/scripts/perl5/5.14.4/Test/Output.pm
+END
+Harness.pm
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/informatics/!svn/ver/3162/AnalysisTools/HybridScaffold/scripts/perl5/5.14.4/Test/Harness.pm
+END

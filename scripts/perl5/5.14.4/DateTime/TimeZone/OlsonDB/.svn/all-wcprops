@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/informatics/!svn/ver/3162/AnalysisTools/HybridScaffold/scripts/perl5/5.14.4/DateTime/TimeZone/OlsonDB
+END
+Zone.pm
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/informatics/!svn/ver/3162/AnalysisTools/HybridScaffold/scripts/perl5/5.14.4/DateTime/TimeZone/OlsonDB/Zone.pm
+END
+Change.pm
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/informatics/!svn/ver/3162/AnalysisTools/HybridScaffold/scripts/perl5/5.14.4/DateTime/TimeZone/OlsonDB/Change.pm
+END
+Observance.pm
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/informatics/!svn/ver/3162/AnalysisTools/HybridScaffold/scripts/perl5/5.14.4/DateTime/TimeZone/OlsonDB/Observance.pm
+END
+Rule.pm
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/informatics/!svn/ver/3162/AnalysisTools/HybridScaffold/scripts/perl5/5.14.4/DateTime/TimeZone/OlsonDB/Rule.pm
+END

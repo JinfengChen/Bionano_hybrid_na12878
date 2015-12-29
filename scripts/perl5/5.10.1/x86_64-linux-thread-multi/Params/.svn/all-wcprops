@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/informatics/!svn/ver/3162/AnalysisTools/HybridScaffold/scripts/perl5/5.10.1/x86_64-linux-thread-multi/Params
+END
+Validate.pm
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/informatics/!svn/ver/3162/AnalysisTools/HybridScaffold/scripts/perl5/5.10.1/x86_64-linux-thread-multi/Params/Validate.pm
+END
+ValidatePP.pm
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/informatics/!svn/ver/3162/AnalysisTools/HybridScaffold/scripts/perl5/5.10.1/x86_64-linux-thread-multi/Params/ValidatePP.pm
+END
+Util.pm
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/informatics/!svn/ver/3162/AnalysisTools/HybridScaffold/scripts/perl5/5.10.1/x86_64-linux-thread-multi/Params/Util.pm
+END
+ValidateXS.pm
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/informatics/!svn/ver/3162/AnalysisTools/HybridScaffold/scripts/perl5/5.10.1/x86_64-linux-thread-multi/Params/ValidateXS.pm
+END

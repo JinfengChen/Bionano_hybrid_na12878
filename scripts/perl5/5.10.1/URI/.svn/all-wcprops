@@ -1,0 +1,257 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/informatics/!svn/ver/3162/AnalysisTools/HybridScaffold/scripts/perl5/5.10.1/URI
+END
+_foreign.pm
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/informatics/!svn/ver/3162/AnalysisTools/HybridScaffold/scripts/perl5/5.10.1/URI/_foreign.pm
+END
+rlogin.pm
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/informatics/!svn/ver/3162/AnalysisTools/HybridScaffold/scripts/perl5/5.10.1/URI/rlogin.pm
+END
+Split.pm
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/informatics/!svn/ver/3162/AnalysisTools/HybridScaffold/scripts/perl5/5.10.1/URI/Split.pm
+END
+sip.pm
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/informatics/!svn/ver/3162/AnalysisTools/HybridScaffold/scripts/perl5/5.10.1/URI/sip.pm
+END
+telnet.pm
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/informatics/!svn/ver/3162/AnalysisTools/HybridScaffold/scripts/perl5/5.10.1/URI/telnet.pm
+END
+ssh.pm
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/informatics/!svn/ver/3162/AnalysisTools/HybridScaffold/scripts/perl5/5.10.1/URI/ssh.pm
+END
+tn3270.pm
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/informatics/!svn/ver/3162/AnalysisTools/HybridScaffold/scripts/perl5/5.10.1/URI/tn3270.pm
+END
+rsync.pm
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/informatics/!svn/ver/3162/AnalysisTools/HybridScaffold/scripts/perl5/5.10.1/URI/rsync.pm
+END
+Escape.pm
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/informatics/!svn/ver/3162/AnalysisTools/HybridScaffold/scripts/perl5/5.10.1/URI/Escape.pm
+END
+_segment.pm
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/informatics/!svn/ver/3162/AnalysisTools/HybridScaffold/scripts/perl5/5.10.1/URI/_segment.pm
+END
+_query.pm
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/informatics/!svn/ver/3162/AnalysisTools/HybridScaffold/scripts/perl5/5.10.1/URI/_query.pm
+END
+urn.pm
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/informatics/!svn/ver/3162/AnalysisTools/HybridScaffold/scripts/perl5/5.10.1/URI/urn.pm
+END
+_server.pm
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/informatics/!svn/ver/3162/AnalysisTools/HybridScaffold/scripts/perl5/5.10.1/URI/_server.pm
+END
+WithBase.pm
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/informatics/!svn/ver/3162/AnalysisTools/HybridScaffold/scripts/perl5/5.10.1/URI/WithBase.pm
+END
+_idna.pm
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/informatics/!svn/ver/3162/AnalysisTools/HybridScaffold/scripts/perl5/5.10.1/URI/_idna.pm
+END
+_generic.pm
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/informatics/!svn/ver/3162/AnalysisTools/HybridScaffold/scripts/perl5/5.10.1/URI/_generic.pm
+END
+news.pm
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/informatics/!svn/ver/3162/AnalysisTools/HybridScaffold/scripts/perl5/5.10.1/URI/news.pm
+END
+rtspu.pm
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/informatics/!svn/ver/3162/AnalysisTools/HybridScaffold/scripts/perl5/5.10.1/URI/rtspu.pm
+END
+sips.pm
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/informatics/!svn/ver/3162/AnalysisTools/HybridScaffold/scripts/perl5/5.10.1/URI/sips.pm
+END
+nntp.pm
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/informatics/!svn/ver/3162/AnalysisTools/HybridScaffold/scripts/perl5/5.10.1/URI/nntp.pm
+END
+http.pm
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/informatics/!svn/ver/3162/AnalysisTools/HybridScaffold/scripts/perl5/5.10.1/URI/http.pm
+END
+mailto.pm
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/informatics/!svn/ver/3162/AnalysisTools/HybridScaffold/scripts/perl5/5.10.1/URI/mailto.pm
+END
+QueryParam.pm
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/informatics/!svn/ver/3162/AnalysisTools/HybridScaffold/scripts/perl5/5.10.1/URI/QueryParam.pm
+END
+rtsp.pm
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/informatics/!svn/ver/3162/AnalysisTools/HybridScaffold/scripts/perl5/5.10.1/URI/rtsp.pm
+END
+ldapi.pm
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/informatics/!svn/ver/3162/AnalysisTools/HybridScaffold/scripts/perl5/5.10.1/URI/ldapi.pm
+END
+ftp.pm
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/informatics/!svn/ver/3162/AnalysisTools/HybridScaffold/scripts/perl5/5.10.1/URI/ftp.pm
+END
+mms.pm
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/informatics/!svn/ver/3162/AnalysisTools/HybridScaffold/scripts/perl5/5.10.1/URI/mms.pm
+END
+pop.pm
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/informatics/!svn/ver/3162/AnalysisTools/HybridScaffold/scripts/perl5/5.10.1/URI/pop.pm
+END
+snews.pm
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/informatics/!svn/ver/3162/AnalysisTools/HybridScaffold/scripts/perl5/5.10.1/URI/snews.pm
+END
+Heuristic.pm
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/informatics/!svn/ver/3162/AnalysisTools/HybridScaffold/scripts/perl5/5.10.1/URI/Heuristic.pm
+END
+URL.pm
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/informatics/!svn/ver/3162/AnalysisTools/HybridScaffold/scripts/perl5/5.10.1/URI/URL.pm
+END
+https.pm
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/informatics/!svn/ver/3162/AnalysisTools/HybridScaffold/scripts/perl5/5.10.1/URI/https.pm
+END
+ldaps.pm
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/informatics/!svn/ver/3162/AnalysisTools/HybridScaffold/scripts/perl5/5.10.1/URI/ldaps.pm
+END
+_userpass.pm
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/informatics/!svn/ver/3162/AnalysisTools/HybridScaffold/scripts/perl5/5.10.1/URI/_userpass.pm
+END
+_login.pm
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/informatics/!svn/ver/3162/AnalysisTools/HybridScaffold/scripts/perl5/5.10.1/URI/_login.pm
+END
+data.pm
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/informatics/!svn/ver/3162/AnalysisTools/HybridScaffold/scripts/perl5/5.10.1/URI/data.pm
+END
+_ldap.pm
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/informatics/!svn/ver/3162/AnalysisTools/HybridScaffold/scripts/perl5/5.10.1/URI/_ldap.pm
+END
+file.pm
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/informatics/!svn/ver/3162/AnalysisTools/HybridScaffold/scripts/perl5/5.10.1/URI/file.pm
+END
+ldap.pm
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/informatics/!svn/ver/3162/AnalysisTools/HybridScaffold/scripts/perl5/5.10.1/URI/ldap.pm
+END
+IRI.pm
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/informatics/!svn/ver/3162/AnalysisTools/HybridScaffold/scripts/perl5/5.10.1/URI/IRI.pm
+END
+gopher.pm
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/informatics/!svn/ver/3162/AnalysisTools/HybridScaffold/scripts/perl5/5.10.1/URI/gopher.pm
+END
+_punycode.pm
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/informatics/!svn/ver/3162/AnalysisTools/HybridScaffold/scripts/perl5/5.10.1/URI/_punycode.pm
+END

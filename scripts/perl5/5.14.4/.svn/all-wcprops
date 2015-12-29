@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/informatics/!svn/ver/3411/AnalysisTools/HybridScaffold/scripts/perl5/5.14.4
+END
+LWP.pm
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/informatics/!svn/ver/3162/AnalysisTools/HybridScaffold/scripts/perl5/5.14.4/LWP.pm
+END
+lwpcook.pod
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/informatics/!svn/ver/3162/AnalysisTools/HybridScaffold/scripts/perl5/5.14.4/lwpcook.pod
+END
+lwptut.pod
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/informatics/!svn/ver/3162/AnalysisTools/HybridScaffold/scripts/perl5/5.14.4/lwptut.pod
+END
+install.pm
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/informatics/!svn/ver/3162/AnalysisTools/HybridScaffold/scripts/perl5/5.14.4/install.pm
+END
+IO.pm
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/informatics/!svn/ver/3281/AnalysisTools/HybridScaffold/scripts/perl5/5.14.4/IO.pm
+END
+PerlIO.pm
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/informatics/!svn/ver/3363/AnalysisTools/HybridScaffold/scripts/perl5/5.14.4/PerlIO.pm
+END
+URI.pm
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/informatics/!svn/ver/3162/AnalysisTools/HybridScaffold/scripts/perl5/5.14.4/URI.pm
+END

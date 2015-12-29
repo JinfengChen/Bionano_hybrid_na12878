@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/informatics/!svn/ver/3409/AnalysisTools/HybridScaffold/scripts/perl5/5.10.1/PerlIO
+END
+excl.pm
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/informatics/!svn/ver/3409/AnalysisTools/HybridScaffold/scripts/perl5/5.10.1/PerlIO/excl.pm
+END
+reverse.pm
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/informatics/!svn/ver/3409/AnalysisTools/HybridScaffold/scripts/perl5/5.10.1/PerlIO/reverse.pm
+END
+Util.pm
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/informatics/!svn/ver/3281/AnalysisTools/HybridScaffold/scripts/perl5/5.10.1/PerlIO/Util.pm
+END
+tee.pm
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/informatics/!svn/ver/3409/AnalysisTools/HybridScaffold/scripts/perl5/5.10.1/PerlIO/tee.pm
+END
+creat.pm
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/informatics/!svn/ver/3409/AnalysisTools/HybridScaffold/scripts/perl5/5.10.1/PerlIO/creat.pm
+END
+dir.pm
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/informatics/!svn/ver/3409/AnalysisTools/HybridScaffold/scripts/perl5/5.10.1/PerlIO/dir.pm
+END
+flock.pm
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/informatics/!svn/ver/3409/AnalysisTools/HybridScaffold/scripts/perl5/5.10.1/PerlIO/flock.pm
+END

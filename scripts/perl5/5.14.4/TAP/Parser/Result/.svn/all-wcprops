@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/informatics/!svn/ver/3162/AnalysisTools/HybridScaffold/scripts/perl5/5.14.4/TAP/Parser/Result
+END
+Bailout.pm
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/informatics/!svn/ver/3162/AnalysisTools/HybridScaffold/scripts/perl5/5.14.4/TAP/Parser/Result/Bailout.pm
+END
+Test.pm
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/informatics/!svn/ver/3162/AnalysisTools/HybridScaffold/scripts/perl5/5.14.4/TAP/Parser/Result/Test.pm
+END
+Unknown.pm
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/informatics/!svn/ver/3162/AnalysisTools/HybridScaffold/scripts/perl5/5.14.4/TAP/Parser/Result/Unknown.pm
+END
+Comment.pm
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/informatics/!svn/ver/3162/AnalysisTools/HybridScaffold/scripts/perl5/5.14.4/TAP/Parser/Result/Comment.pm
+END
+YAML.pm
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/informatics/!svn/ver/3162/AnalysisTools/HybridScaffold/scripts/perl5/5.14.4/TAP/Parser/Result/YAML.pm
+END
+Version.pm
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/informatics/!svn/ver/3162/AnalysisTools/HybridScaffold/scripts/perl5/5.14.4/TAP/Parser/Result/Version.pm
+END
+Pragma.pm
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/informatics/!svn/ver/3162/AnalysisTools/HybridScaffold/scripts/perl5/5.14.4/TAP/Parser/Result/Pragma.pm
+END
+Plan.pm
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/informatics/!svn/ver/3162/AnalysisTools/HybridScaffold/scripts/perl5/5.14.4/TAP/Parser/Result/Plan.pm
+END

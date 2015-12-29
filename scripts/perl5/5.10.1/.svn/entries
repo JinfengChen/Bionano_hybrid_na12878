@@ -1,0 +1,328 @@
+10
+
+dir
+3527
+http://svn.bnm.local:81/svn/informatics/AnalysisTools/HybridScaffold/scripts/perl5/5.10.1
+http://svn.bnm.local:81/svn/informatics
+
+
+
+2014-11-20T01:35:37.456336Z
+3409
+psheth
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+40962d26-bc18-a646-a739-3526a61449a6
+
+Net
+dir
+
+x86_64-linux-thread-multi
+dir
+
+Sub
+dir
+
+Package
+dir
+
+namespace
+dir
+
+DateTime
+dir
+
+XML
+dir
+
+LWP
+dir
+
+Dist
+dir
+
+parent.pm
+file
+
+
+
+
+2014-09-10T17:01:02.385351Z
+911034d4ccf78c6e06934a1828aafa3f
+2014-09-02T03:18:14.897632Z
+3166
+psheth
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2998
+
+Class
+dir
+
+IO
+dir
+
+Data
+dir
+
+URI.pm
+file
+
+
+
+
+2014-09-10T17:01:02.393351Z
+3311050d043dc322ef0b435534f88c18
+2014-08-31T22:54:04.601571Z
+3162
+psheth
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+34357
+
+List
+dir
+
+LWP.pm
+file
+
+
+
+
+2014-09-10T17:01:02.397351Z
+88e3ca7692c8e1ce26b7eca988e30508
+2014-08-31T22:54:04.601571Z
+3162
+psheth
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+21656
+
+Test
+dir
+
+File
+dir
+
+HTTP
+dir
+
+WWW
+dir
+
+Module
+dir
+
+PerlIO
+dir
+
+Encode
+dir
+
+lwpcook.pod
+file
+
+
+
+
+2014-09-10T17:01:02.393351Z
+3162bb951f339d296c5b39b8fe914e07
+2014-08-31T22:54:04.601571Z
+3162
+psheth
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+9265
+
+Devel
+dir
+
+URI
+dir
+
+Perl
+dir
+
+Capture
+dir
+
+HTML
+dir
+
+Config
+dir
+
+auto
+dir
+
+JSON
+dir
+
+Try
+dir
+
+lwptut.pod
+file
+
+
+
+
+2014-09-10T17:01:02.389351Z
+eb00e1687f9e1da9394119e4b28df127
+2014-08-31T22:54:04.601571Z
+3162
+psheth
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+25481
+
+B
+dir
+
+install.pm
+file
+
+
+
+
+2014-09-10T17:01:02.389351Z
+ce29d132a3f111406573baa19fbfd45c
+2014-08-31T22:54:04.601571Z
+3162
+psheth
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+975
+
+CPAN
+dir
+
+ExtUtils
+dir
+

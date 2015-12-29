@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/informatics/!svn/ver/3162/AnalysisTools/HybridScaffold/scripts/perl5/5.14.4/ExtUtils/Helpers
+END
+Unix.pm
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/informatics/!svn/ver/3162/AnalysisTools/HybridScaffold/scripts/perl5/5.14.4/ExtUtils/Helpers/Unix.pm
+END
+VMS.pm
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/informatics/!svn/ver/3162/AnalysisTools/HybridScaffold/scripts/perl5/5.14.4/ExtUtils/Helpers/VMS.pm
+END
+Windows.pm
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/informatics/!svn/ver/3162/AnalysisTools/HybridScaffold/scripts/perl5/5.14.4/ExtUtils/Helpers/Windows.pm
+END

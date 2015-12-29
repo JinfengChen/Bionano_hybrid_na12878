@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/informatics/!svn/ver/3162/AnalysisTools/HybridScaffold/scripts/perl5/5.14.4/XML/SAX
+END
+Exception.pm
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/informatics/!svn/ver/3162/AnalysisTools/HybridScaffold/scripts/perl5/5.14.4/XML/SAX/Exception.pm
+END
+PurePerl.pm
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/informatics/!svn/ver/3162/AnalysisTools/HybridScaffold/scripts/perl5/5.14.4/XML/SAX/PurePerl.pm
+END
+Expat.pm
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/informatics/!svn/ver/3162/AnalysisTools/HybridScaffold/scripts/perl5/5.14.4/XML/SAX/Expat.pm
+END
+Intro.pod
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/informatics/!svn/ver/3162/AnalysisTools/HybridScaffold/scripts/perl5/5.14.4/XML/SAX/Intro.pod
+END
+DocumentLocator.pm
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/informatics/!svn/ver/3162/AnalysisTools/HybridScaffold/scripts/perl5/5.14.4/XML/SAX/DocumentLocator.pm
+END
+ParserFactory.pm
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/informatics/!svn/ver/3162/AnalysisTools/HybridScaffold/scripts/perl5/5.14.4/XML/SAX/ParserFactory.pm
+END
+BuildSAXBase.pl
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/informatics/!svn/ver/3162/AnalysisTools/HybridScaffold/scripts/perl5/5.14.4/XML/SAX/BuildSAXBase.pl
+END
+ParserDetails.ini
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/informatics/!svn/ver/3162/AnalysisTools/HybridScaffold/scripts/perl5/5.14.4/XML/SAX/ParserDetails.ini
+END
+Base.pm
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/informatics/!svn/ver/3162/AnalysisTools/HybridScaffold/scripts/perl5/5.14.4/XML/SAX/Base.pm
+END

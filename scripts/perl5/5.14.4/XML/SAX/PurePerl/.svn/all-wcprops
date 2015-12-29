@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/informatics/!svn/ver/3162/AnalysisTools/HybridScaffold/scripts/perl5/5.14.4/XML/SAX/PurePerl
+END
+Reader.pm
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/informatics/!svn/ver/3162/AnalysisTools/HybridScaffold/scripts/perl5/5.14.4/XML/SAX/PurePerl/Reader.pm
+END
+DebugHandler.pm
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/informatics/!svn/ver/3162/AnalysisTools/HybridScaffold/scripts/perl5/5.14.4/XML/SAX/PurePerl/DebugHandler.pm
+END
+NoUnicodeExt.pm
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/informatics/!svn/ver/3162/AnalysisTools/HybridScaffold/scripts/perl5/5.14.4/XML/SAX/PurePerl/NoUnicodeExt.pm
+END
+DTDDecls.pm
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/informatics/!svn/ver/3162/AnalysisTools/HybridScaffold/scripts/perl5/5.14.4/XML/SAX/PurePerl/DTDDecls.pm
+END
+DocType.pm
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/informatics/!svn/ver/3162/AnalysisTools/HybridScaffold/scripts/perl5/5.14.4/XML/SAX/PurePerl/DocType.pm
+END
+UnicodeExt.pm
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/informatics/!svn/ver/3162/AnalysisTools/HybridScaffold/scripts/perl5/5.14.4/XML/SAX/PurePerl/UnicodeExt.pm
+END
+XMLDecl.pm
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/informatics/!svn/ver/3162/AnalysisTools/HybridScaffold/scripts/perl5/5.14.4/XML/SAX/PurePerl/XMLDecl.pm
+END
+Productions.pm
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/informatics/!svn/ver/3162/AnalysisTools/HybridScaffold/scripts/perl5/5.14.4/XML/SAX/PurePerl/Productions.pm
+END
+Exception.pm
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/informatics/!svn/ver/3162/AnalysisTools/HybridScaffold/scripts/perl5/5.14.4/XML/SAX/PurePerl/Exception.pm
+END
+EncodingDetect.pm
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/informatics/!svn/ver/3162/AnalysisTools/HybridScaffold/scripts/perl5/5.14.4/XML/SAX/PurePerl/EncodingDetect.pm
+END

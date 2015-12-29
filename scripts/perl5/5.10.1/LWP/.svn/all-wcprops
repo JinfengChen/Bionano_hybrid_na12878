@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/informatics/!svn/ver/3162/AnalysisTools/HybridScaffold/scripts/perl5/5.10.1/LWP
+END
+Debug.pm
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/informatics/!svn/ver/3162/AnalysisTools/HybridScaffold/scripts/perl5/5.10.1/LWP/Debug.pm
+END
+DebugFile.pm
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/informatics/!svn/ver/3162/AnalysisTools/HybridScaffold/scripts/perl5/5.10.1/LWP/DebugFile.pm
+END
+media.types
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/informatics/!svn/ver/3162/AnalysisTools/HybridScaffold/scripts/perl5/5.10.1/LWP/media.types
+END
+Simple.pm
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/informatics/!svn/ver/3162/AnalysisTools/HybridScaffold/scripts/perl5/5.10.1/LWP/Simple.pm
+END
+RobotUA.pm
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/informatics/!svn/ver/3162/AnalysisTools/HybridScaffold/scripts/perl5/5.10.1/LWP/RobotUA.pm
+END
+MemberMixin.pm
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/informatics/!svn/ver/3162/AnalysisTools/HybridScaffold/scripts/perl5/5.10.1/LWP/MemberMixin.pm
+END
+UserAgent.pm
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/informatics/!svn/ver/3162/AnalysisTools/HybridScaffold/scripts/perl5/5.10.1/LWP/UserAgent.pm
+END
+ConnCache.pm
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/informatics/!svn/ver/3162/AnalysisTools/HybridScaffold/scripts/perl5/5.10.1/LWP/ConnCache.pm
+END
+Protocol.pm
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/informatics/!svn/ver/3162/AnalysisTools/HybridScaffold/scripts/perl5/5.10.1/LWP/Protocol.pm
+END
+MediaTypes.pm
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/informatics/!svn/ver/3162/AnalysisTools/HybridScaffold/scripts/perl5/5.10.1/LWP/MediaTypes.pm
+END

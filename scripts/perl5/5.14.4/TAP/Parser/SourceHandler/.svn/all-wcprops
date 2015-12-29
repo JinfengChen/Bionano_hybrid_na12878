@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/informatics/!svn/ver/3162/AnalysisTools/HybridScaffold/scripts/perl5/5.14.4/TAP/Parser/SourceHandler
+END
+RawTAP.pm
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/informatics/!svn/ver/3162/AnalysisTools/HybridScaffold/scripts/perl5/5.14.4/TAP/Parser/SourceHandler/RawTAP.pm
+END
+File.pm
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/informatics/!svn/ver/3162/AnalysisTools/HybridScaffold/scripts/perl5/5.14.4/TAP/Parser/SourceHandler/File.pm
+END
+Executable.pm
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/informatics/!svn/ver/3162/AnalysisTools/HybridScaffold/scripts/perl5/5.14.4/TAP/Parser/SourceHandler/Executable.pm
+END
+Perl.pm
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/informatics/!svn/ver/3162/AnalysisTools/HybridScaffold/scripts/perl5/5.14.4/TAP/Parser/SourceHandler/Perl.pm
+END
+Handle.pm
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/informatics/!svn/ver/3162/AnalysisTools/HybridScaffold/scripts/perl5/5.14.4/TAP/Parser/SourceHandler/Handle.pm
+END

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/informatics/!svn/ver/3162/AnalysisTools/HybridScaffold/scripts/perl5/5.14.4/x86_64-linux-thread-multi/DateTime
+END
+Duration.pm
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/informatics/!svn/ver/3162/AnalysisTools/HybridScaffold/scripts/perl5/5.14.4/x86_64-linux-thread-multi/DateTime/Duration.pm
+END
+Infinite.pm
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/informatics/!svn/ver/3162/AnalysisTools/HybridScaffold/scripts/perl5/5.14.4/x86_64-linux-thread-multi/DateTime/Infinite.pm
+END
+LeapSecond.pm
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/informatics/!svn/ver/3162/AnalysisTools/HybridScaffold/scripts/perl5/5.14.4/x86_64-linux-thread-multi/DateTime/LeapSecond.pm
+END
+Helpers.pm
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/informatics/!svn/ver/3162/AnalysisTools/HybridScaffold/scripts/perl5/5.14.4/x86_64-linux-thread-multi/DateTime/Helpers.pm
+END

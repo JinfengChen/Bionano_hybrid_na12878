@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/informatics/!svn/ver/3162/AnalysisTools/HybridScaffold/scripts/perl5/5.14.4/x86_64-linux-thread-multi/XML/Parser/Style
+END
+Stream.pm
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/informatics/!svn/ver/3162/AnalysisTools/HybridScaffold/scripts/perl5/5.14.4/x86_64-linux-thread-multi/XML/Parser/Style/Stream.pm
+END
+Subs.pm
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/informatics/!svn/ver/3162/AnalysisTools/HybridScaffold/scripts/perl5/5.14.4/x86_64-linux-thread-multi/XML/Parser/Style/Subs.pm
+END
+Tree.pm
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/informatics/!svn/ver/3162/AnalysisTools/HybridScaffold/scripts/perl5/5.14.4/x86_64-linux-thread-multi/XML/Parser/Style/Tree.pm
+END
+Debug.pm
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/informatics/!svn/ver/3162/AnalysisTools/HybridScaffold/scripts/perl5/5.14.4/x86_64-linux-thread-multi/XML/Parser/Style/Debug.pm
+END
+Objects.pm
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/informatics/!svn/ver/3162/AnalysisTools/HybridScaffold/scripts/perl5/5.14.4/x86_64-linux-thread-multi/XML/Parser/Style/Objects.pm
+END

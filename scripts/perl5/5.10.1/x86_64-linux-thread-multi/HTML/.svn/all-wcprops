@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/informatics/!svn/ver/3162/AnalysisTools/HybridScaffold/scripts/perl5/5.10.1/x86_64-linux-thread-multi/HTML
+END
+Entities.pm
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/informatics/!svn/ver/3162/AnalysisTools/HybridScaffold/scripts/perl5/5.10.1/x86_64-linux-thread-multi/HTML/Entities.pm
+END
+Filter.pm
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/informatics/!svn/ver/3162/AnalysisTools/HybridScaffold/scripts/perl5/5.10.1/x86_64-linux-thread-multi/HTML/Filter.pm
+END
+PullParser.pm
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/informatics/!svn/ver/3162/AnalysisTools/HybridScaffold/scripts/perl5/5.10.1/x86_64-linux-thread-multi/HTML/PullParser.pm
+END
+Parser.pm
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/informatics/!svn/ver/3162/AnalysisTools/HybridScaffold/scripts/perl5/5.10.1/x86_64-linux-thread-multi/HTML/Parser.pm
+END
+HeadParser.pm
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/informatics/!svn/ver/3162/AnalysisTools/HybridScaffold/scripts/perl5/5.10.1/x86_64-linux-thread-multi/HTML/HeadParser.pm
+END
+LinkExtor.pm
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/informatics/!svn/ver/3162/AnalysisTools/HybridScaffold/scripts/perl5/5.10.1/x86_64-linux-thread-multi/HTML/LinkExtor.pm
+END
+TokeParser.pm
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/informatics/!svn/ver/3162/AnalysisTools/HybridScaffold/scripts/perl5/5.10.1/x86_64-linux-thread-multi/HTML/TokeParser.pm
+END
