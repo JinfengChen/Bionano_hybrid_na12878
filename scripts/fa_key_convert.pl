@@ -3,7 +3,7 @@ use strict;
 use warnings;
 use File::Basename;
 use Cwd qw(abs_path);
-
+=cut
 # This adds "${CURRENT_SCRIPT_PATH}/perl5/" direcory at run time to the @INC array
 # This script sould sit one level above the additional Perl modules directory.
 BEGIN {
@@ -33,6 +33,8 @@ BEGIN {
 	unshift @INC, $lib3;
 	#print "$0 library paths:\n\t"; print join("\n\t", @INC); print "\n";
 }
+=cut
+
 use BNG::Utility;
 
 my ($IN, $KEY, $OUT);

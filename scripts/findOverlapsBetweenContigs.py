@@ -2,13 +2,14 @@ import os
 import sys
 from pbcore.io.FastaIO import FastaReader as sfr
 import bisect
+import re
 
 rc = dict(zip("ACTGactgNn-", "TGACtgacNn-"))
 def revcomp (seq):
     return "".join(map(lambda x: rc[x], seq)[::-1])
 
 
-def mapSeqPair(seqtup, seqoverhang):
+def mapSeqPair(seqtup, seqoverhang, mummer):
 
      seqname, seq1, seq2 = seqtup
      qfn = "%s_temp1.fasta" %(seqname)
@@ -20,9 +21,9 @@ def mapSeqPair(seqtup, seqoverhang):
      r_out.write(">seq2\n%s\n" %(seq2[0:seqoverhang]))
      r_out.close()
      print >>sys.stderr, "nucmer running . . ."
-     os.system("nucmer --maxmatch --nosimplify %s %s --prefix %s_temp 2> %s_temp.err" %(rfn, qfn, seqname, seqname))
-     os.system("delta-filter -1 %s_temp.delta > %s_temp_1.delta 2> %s_temp.err" %(seqname, seqname, seqname)) 
-     os.system("show-coords -l -r -L 30 %s_temp_1.delta > %s_temp_1.coords 2> %s_temp.err" %(seqname, seqname, seqname))
+     os.system("%s/nucmer --maxmatch --nosimplify %s %s --prefix %s_temp 2> %s_temp.err1" %(mummer, rfn, qfn, seqname, seqname))
+     os.system("%s/delta-filter -1 %s_temp.delta > %s_temp_1.delta 2> %s_temp.err2" %(mummer, seqname, seqname, seqname)) 
+     os.system("%s/show-coords -l -r -L 30 %s_temp_1.delta > %s_temp_1.coords 2> %s_temp.err3" %(mummer, seqname, seqname, seqname))
      f = open("%s_temp_1.coords" %(seqname))
      for i in range(5):
          f.readline()
@@ -96,7 +97,7 @@ def readCmapToDict (cmapfile):
         cmapdict[scaff_id].sort()
     return cmapdict
 
-def getCutSiteGapSeq (cmapPosList, start, end, nickseq="GMWSWKCN"):# positive strand only = GCTCTTC"):
+def getCutSiteGapSeq (cmapPosList, start, end, nickseq="GMWSWKC"):# positive strand only = GCTCTTC"): # negative strand GAAGAGC
     sind = bisect.bisect(cmapPosList, start)
     eind = bisect.bisect_left(cmapPosList, end)
     nickstart = cmapPosList[sind]
@@ -116,12 +117,16 @@ def getCutSiteGapSeq (cmapPosList, start, end, nickseq="GMWSWKCN"):# positive st
     
     
                     
-def overlapsBetweenContigs (fn, qMap, fastaDict, fn_tag, cmapDict, exclusions = {}, scaff2contigs={}):
+def overlapsBetweenContigs (mummer, fn, qMap, fastaDict, fn_tag, cmapDict, exclusions = {}, scaff2contigs={}, nickseq="GMWSWKC"):
     fafout = open("%s_output_test.fa" %(fn_tag), 'w')
+    trimconfafout = open("%s_trimmed_contigs.fa" %(fn_tag), 'w')
     contiguntouchfout = open("%s_output_test_contigs_untouch.txt" %(fn_tag), 'w')
     contigoverlapfout = open("%s_output_test_contigs_overlap.txt" %(fn_tag), 'w')
     contigfailedoverlapfout = open("%s_output_test_contigs_failedoverlap.txt" %(fn_tag), 'w')
     usedContigDict = {} # contig id and revised (trimmed) sequeunce
+    contigseqlen = 0
+    nseqlen = 0
+    totalseqlen = 0
     with open(fn) as f:
         f.readline()
         prevSeq = ""
@@ -186,6 +191,9 @@ def overlapsBetweenContigs (fn, qMap, fastaDict, fn_tag, cmapDict, exclusions = 
                 # -----------|-------NNNNNNNNNNNNNNNNN---------------|-------------------- merged sequence
                 #prevSeq = prevSeq + "N"*sequencegap + seq2
                 prevSeq = prevSeq + gapSequence + seq2
+                totalseqlen += len(seq2)
+                contigseqlen += len(seq2)
+                
                 print >>contiguntouchfout, qMap[qId1]
                 print >>contiguntouchfout, qMap[qId2]
                 continue
@@ -195,7 +203,7 @@ def overlapsBetweenContigs (fn, qMap, fastaDict, fn_tag, cmapDict, exclusions = 
             # otherwise require it to be within at least 3X the predicted size
             seqoverhang = max(3*sequencegap, 10000)
 
-            seqoverlapi = mapSeqPair((seqname, seq1, seq2), seqoverhang)
+            seqoverlapi = mapSeqPair((seqname, seq1, seq2), seqoverhang, mummer)
             
             print >>sys.stderr,"*"*80
 
@@ -216,6 +224,8 @@ def overlapsBetweenContigs (fn, qMap, fastaDict, fn_tag, cmapDict, exclusions = 
                 # for overlap mapping
                 prevseqend = len(prevSeq)-(seqoverhang - e1) # end of current scaff seq
                 prevSeq = prevSeq[0:prevseqend] + seq2[e2:]
+                totalseqlen += (len(seq2) - e2 - (seqoverhang-e1))
+                contigseqlen += (len(seq2) - e2 - (seqoverhang-e1))
                 currusedseq1 = usedContigDict[fastaId1]
                 # adjust sequences in used contig dict
                 usedContigDict[fastaId1] = currusedseq1[0:len(currusedseq1)-(seqoverhang-e1)]
@@ -224,6 +234,10 @@ def overlapsBetweenContigs (fn, qMap, fastaDict, fn_tag, cmapDict, exclusions = 
                 print "successful merge %s %i %i %i %s %i %i %i %s" %(qId1, s1,e1, len(seq1), qId2, s2,e2, len(seq2), l.strip())
                 print >>contigoverlapfout, qMap[qId1]
                 print >>contigoverlapfout, qMap[qId2]
+                if optmapaligngap <= 0:
+                    print >>sys.stderr,  re.split("(GCTCTTC)|(GAAGAGC)", seq1[-overhang1-20:-overhang1+20].upper())
+                    print >>sys.stderr,  re.split("(GCTCTTC)|(GAAGAGC)", seq2[overhang2-20:overhang2+20].upper())
+
 
             else:
                 # print gap size for unsucessful merges
@@ -239,17 +253,41 @@ def overlapsBetweenContigs (fn, qMap, fastaDict, fn_tag, cmapDict, exclusions = 
                 #                       ?    ?                             nick
                 # here we will be conservative and return
                 # -----------|NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN|-------------------- merged sequence
-                if optmapaligngap <= 0:
-                    print >>sys.stderr, "Note these guys had overlapping mappings!"
-                    sys.exit()
+                if optmapaligngap <= 0: # if the nick sites predict overlap, chew back the predicted sequence overlap region
+                    print >>sys.stderr, ll
+                    print >>sys.stderr, end1, start2, sequencegap, overhang1, overhang2
+                    print >>sys.stderr,  re.split("(GCTCTTC)|(GAAGAGC)", seq1[-overhang1-10:-overhang1+10])
+                    print >>sys.stderr,  re.split("(GCTCTTC)|(GAAGAGC)", seq2[overhang2-10:overhang2+10])
+
+                    #print >>sys.stderr,  seq1[-overhang1-10:-overhang1+10]
+                    #print >>sys.stderr,  seq2[overhang2-10:overhang2+10]
+                    print >>sys.stderr,  seq1[len(seq1)-overhang1-len(nickseq)+1:len(seq1)-overhang1+1]
+                    print >>sys.stderr,  seq2[overhang2-len(nickseq)+1:overhang2+1]
+                    print >>sys.stderr, "Note these guys had overlapping mappings in nick space!"
+                    totalseqlen += (len(seq2) - overhang1 - 10000 - overhang2) + 10000
+                    contigseqlen += (len(seq2) - overhang1 - 10000 - overhang2) + 10000
+                    nseqlen += 10000
+                    prevSeq = prevSeq[0:len(prevSeq)-overhang1-5000] + "N"*(10000) + seq2[overhang2+5000:]
+                    currusedseq1 = usedContigDict[fastaId1]
+                    # adjust sequences in used contig dict
+                    usedContigDict[fastaId1] = currusedseq1[0:len(currusedseq1)-overhang1-5000]
+                    usedContigDict[fastaId2] = usedContigDict[fastaId2][overhang2+5000:]
+                    print >>contigfailedoverlapfout, qMap[qId1]
+                    print >>contigfailedoverlapfout, qMap[qId2]
                     
-                prevSeq = prevSeq[0:len(prevSeq)-overhang1] + "N"*(-1*sequencegap) + seq2[overhang2:]
-                currusedseq1 = usedContigDict[fastaId1]
-                # adjust sequences in used contig dict
-                usedContigDict[fastaId1] = currusedseq1[0:len(currusedseq1)-overhang1]
-                usedContigDict[fastaId2] = usedContigDict[fastaId2][overhang2:]
-                print >>contigfailedoverlapfout, qMap[qId1]
-                print >>contigfailedoverlapfout, qMap[qId2]
+                else:
+                    nseqlen += 10000
+                    prevSeq = prevSeq[0:len(prevSeq)-overhang1+1] + "N"*(optmapaligngap) + seq2[overhang2:]
+                    currusedseq1 = usedContigDict[fastaId1]
+# adjust sequences in used contig dict
+                    totalseqlen += (len(seq2) - (overhang1 - len(nickseq) + 1) - (overhang2-len(nickseq) + 1)) + optmapaligngap
+                    contigseqlen += (len(seq2) - (overhang1 - len(nickseq) + 1) - (overhang2-len(nickseq) + 1))
+                    nseqlen += optmapaligngap
+                    usedContigDict[fastaId1] = currusedseq1[0:len(currusedseq1)-overhang1-len(nickseq)+1]
+                    usedContigDict[fastaId2] = usedContigDict[fastaId2][overhang2-len(nickseq) +1:]
+                    print >>contigfailedoverlapfout, qMap[qId1]
+                    print >>contigfailedoverlapfout, qMap[qId2]
+                    print >>sys.stderr, "Note these guys had nonoverlapping mappings in nick space!"
             print >>sys.stderr, "*"*80
             sys.stderr.flush()
             fafout.flush()
@@ -270,12 +308,21 @@ def overlapsBetweenContigs (fn, qMap, fastaDict, fn_tag, cmapDict, exclusions = 
                 try:
                     print >>sys.stderr, "added singleton: %s" %(contigs[0])
                     contigseq = fastaDict[qMap[contigs[0]]]
+                    totalseqlen += len(contigseq)
+                    contigseqlen += (len(contigseq))
                 except:
                     print >>sys.stderr, "contig (%s) doesn't exist" %(contigs[0])
                 print >>fafout, ">%s\n%s" %(scaff, contigseq)
             else:
                 print >>sys.stderr, "WARNING:  more than 0 contigs in this missed scaffold: %s" %(scaff)
-                
+    for conid in fastaDict:
+        if conid in usedContigDict:
+            conseq = usedContigDict[conid]
+        else:
+            conseq = fastaDict[conid]
+        print >>trimconfafout, ">%s\n%s" %(conid, conseq)
+    trimconfafout.close()
+    print "sequence lens:", contigseqlen, nseqlen, totalseqlen
 
 
 def agp_to_dict (agpfile):
@@ -318,8 +365,6 @@ parser.add_option("--produce_agp",
                   help="name of output agp and output contig fasta (trimmed)", metavar="FILE", default = None)
 (options, args) = parser.parse_args()
 #contigFastaFile = sys.argv[1]
-print options
-print args
 contigFastaFile = args[0]
 fastaDict = {}
 #qMapFile = sys.argv[2]
@@ -332,6 +377,7 @@ cmap_file = args[3] # this is the accompany hybrid cmap for the xmap
 anchor_file = options.anchor_file # usually an xmap
 fn_tag = options.fn_tag
 
+mummer=args[4]
 
 # read cmap to dict
 cmapDict = readCmapToDict (cmap_file)
@@ -361,13 +407,13 @@ if not(anchor_file is None):
     fastaDict = fastaToDict (contigFastaFile)
     print >>sys.stderr, "finished reading fasta to dict"
 
-    overlapsBetweenContigs (overlap_file, qMap, fastaDict, fn_tag, cmapDict,  scaff2contigs=scaff2contigs)
+    overlapsBetweenContigs (mummer, overlap_file, qMap, fastaDict, fn_tag, cmapDict,  scaff2contigs=scaff2contigs)
 else:
 
     print >>sys.stderr, "starting read fasta to dict"
     fastaDict = fastaToDict (contigFastaFile)
     print >>sys.stderr, "finished reading fasta to dict"
 
-    overlapsBetweenContigs (overlap_file, qMap, fastaDict, fn_tag, cmapDict)
+    overlapsBetweenContigs (mummer, overlap_file, qMap, fastaDict, fn_tag, cmapDict)
 #overlapsBetweenContigsThreaded (sys.argv[3], qMap, fastaDict)
 

@@ -7,6 +7,7 @@ use warnings;
 use File::Basename;
 use Cwd qw(abs_path);
 
+=cut
 # This adds "${CURRENT_SCRIPT_PATH}/perl5/" direcory at run time to the @INC array
 # This script sould sit one level above the additional Perl modules directory.
 BEGIN {
@@ -36,6 +37,7 @@ BEGIN {
 	unshift @INC, $lib3;
 	#print "$0 library paths:\n\t"; print join("\n\t", @INC); print "\n";
 }
+=cut
 
 print "\nInfo: Running the command: $0 @ARGV\n";
 
@@ -65,7 +67,7 @@ my $RepeatMask = $ARGV[16] . " " . $ARGV[17];
 my $RepeatRec = $ARGV[18] . " " . $ARGV[19];
 #####################################my $pairmerge = $ARGV[20] . " " . $ARGV[21];
 #######################################my $readparameters = $ARGV[22];
-my $readparameters = $ARGV[20];
+#my $readparameters = $ARGV[20];
 # C:/Users/ZhanyangZhu/workspace/BioNano/dev/Export_HybridScaffold/data/arabidopsis/mergeNGS_BN 
 # "C:/Program Files/BioNano Genomics/SetupRefAligner/WindowsRefAligner" 
 # 1e-10 ./ mergeNGS_BN_pl.log ../assignAlignType/assignAlignType_r.cmap 
@@ -143,8 +145,8 @@ my $pairmerge_single_round_2files_run =
 						 RepeatMask => "$RepeatMask",
 						 RepeatRec 	=> "$RepeatRec",	  
 						 ############################################ pairmerge  => "$pairmerge",
-						 #readparameters => "$readparameters",
-						 NoBpp		=> 1        					 
+						 #*****readparameters => "$readparameters",
+						 #*****NoBpp		=> 1        					 
 	  } );
 #my ($outResults, $errResults, $job_status);
 while ($do_mrg) { 

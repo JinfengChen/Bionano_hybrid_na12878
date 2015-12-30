@@ -1,4 +1,4 @@
-source("fileIO.R")
+source("/rhome/cjinfeng/BigData/00.RD/Assembly/Pacbio/install/na12878_architecture/bionano/scripts/fileIO.R")
 
 args <- commandArgs(TRUE)
 

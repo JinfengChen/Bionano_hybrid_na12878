@@ -3,9 +3,9 @@
 use strict;
 use warnings;
 
-my $v1SeqFile = "input_data/mar3_NA12878.scf.fasta";
-my $v2SeqFile = "input_data/primary_tigs_c_copy.fa";
-my $bngFile = "input_data/EXP_REFINEFINAL1_q.cmap";
+my $v1SeqFile = "input_data/asm.scf.fasta";
+my $v2SeqFile = "input_data/Citrus_v1_quiver_round2.fasta";
+my $bngFile = "input_data/Cclementina_v1.0_scaffolds_BspQI_CACGTTAAA.cmap";
 mkdir "v1" if (! -e "v1");
 mkdir "v2" if (! -e "v2");
 
@@ -16,7 +16,7 @@ $cmd .= "-b $bngFile ";
 $cmd .= "-c xml/hybridScaffold_config_v1.xml ";
 $cmd .= "-o v1/output_results ";
 $cmd .= "-f ";
-system($cmd);
+#system($cmd);
 print "done v1\n";
 
 ### merge results
@@ -25,7 +25,8 @@ $cmd .= "-i v1/output_results/mergeNGS_BN/step2.hybrid.cmap ";
 $cmd .= "-i v1/output_results/mergeNGS_BN/step1.BN.naive.cmap ";
 $cmd .= "-o v2/v1.hybrid.BN.naive ";
 $cmd .= "-f ";
-system($cmd);
+#system($cmd);
+print "done merge\n";
 
 ### v2
 ### trust the BN/hybrid

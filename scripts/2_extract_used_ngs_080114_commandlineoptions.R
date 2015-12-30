@@ -1,6 +1,6 @@
 #!/usr/bin/env Rscript
 
-source("fileIO.R")
+source("/rhome/cjinfeng/BigData/00.RD/Assembly/Pacbio/install/na12878_architecture/bionano/scripts/fileIO.R")
 args <- commandArgs(TRUE)
 
      #R --no-save -args x y z < script.R
