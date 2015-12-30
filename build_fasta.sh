@@ -17,29 +17,30 @@ start=`date +%s`
 #make & make install
 export PERL5LIB=/rhome/cjinfeng/BigData/software/perl5.10.1/perl-5.10.1/lib/:/rhome/cjinfeng/BigData/software/perl:/rhome/cjinfeng/BigData/software/Perl_lib/:/rhome/cjinfeng/BigData/software/Perl_lib/lib/site_perl/5.10.1/x86_64-linux/:/rhome/cjinfeng/BigData/software/Perl_lib/lib/site_perl/5.10.1:/rhome/cjinfeng/BigData/software/Perl_lib/lib/5.10.1:/rhome/cjinfeng/BigData/software/Perl_lib/lib/5.10.1/:/rhome/cjinfeng/BigData/software/Perl_lib/lib/perl5/x86_64-linux:/rhome/cjinfeng/BigData/00.RD/Assembly/Pacbio/install/na12878_architecture/bionano/scripts/perl5
 
-#step1
+#step1: find old contig in new assembly, generate used.translation.fasta.cmap.txt and notUsed.translation.fasta.cmap.txt
 #/rhome/cjinfeng/BigData/software/perl5.10.1/perl-5.10.1/perl -Mforks scripts/1_find_usedCeleraId_in_newQuiveredCeleraId_031615_commandLineOptions.pl \
-#/rhome/cjinfeng/BigData/00.RD/Assembly/Pacbio/install/na12878_architecture/bionano/v1/output_results/mergeNGS_BN \
-#/rhome/cjinfeng/BigData/00.RD/Assembly/Pacbio/install/na12878_architecture/bionano/input_data \
+#v1/output_results/mergeNGS_BN \
+#input_data \
 #asm.scf_BspQI_0Kb_0labels_key.txt \
 #./ \
-#new_quivered_assembly \
+#input_data \
 #asm.scf_BspQI_0Kb_0labels_key.txt
 
-#step2
-#Rscript scripts/2_extract_used_ngs_080114_commandlineoptions.R --args \
-#/rhome/cjinfeng/BigData/00.RD/Assembly/Pacbio/install/na12878_architecture/bionano/input_data/asm.scf_BspQI_0Kb_0labels.cmap \
-#/rhome/cjinfeng/BigData/00.RD/Assembly/Pacbio/install/na12878_architecture/bionano/align_usedQuiveredCelera_v2Hybrid/used.translation.fasta.cmap.txt \
-#/rhome/cjinfeng/BigData/00.RD/Assembly/Pacbio/install/na12878_architecture/bionano/align_usedQuiveredCelera_v2Hybrid/used.newSeq.cmap
+#step2: generate used.newSeq.cmap
+#R --no-save --args \
+#input_data/asm.scf_BspQI_0Kb_0labels.cmap \
+#align_usedQuiveredCelera_v2Hybrid/used.translation.fasta.cmap.txt \
+#align_usedQuiveredCelera_v2Hybrid/used.newSeq.cmap \
+#< scripts/2_extract_used_ngs_080114_commandlineoptions.R
 
-#step3
+#step3: align used contig to v2hybrid in align_usedQuiveredCelera_v2Hybrid/alignref_noRepeatMask 
 #/rhome/cjinfeng/BigData/software/perl5.10.1/perl-5.10.1/perl -Mforks scripts/3_ngs_to_hybridscaffold_commandlineoptions.pl \
-#/rhome/cjinfeng/BigData/00.RD/Assembly/Pacbio/install/na12878_architecture/bionano/align_usedQuiveredCelera_v2Hybrid/ \
-#/rhome/cjinfeng/BigData/00.RD/Assembly/Pacbio/install/na12878_architecture/bionano/v2/output_results/mergeNGS_BN/ \
-#/rhome/cjinfeng/BigData/00.RD/Assembly/Pacbio/install/na12878_architecture/bionano/RefAligner2
-#mkdir /rhome/cjinfeng/BigData/00.RD/Assembly/Pacbio/install/na12878_architecture/bionano/align_usedQuiveredCelera_v2Hybrid/alignref_noRepeatMask/AssignAlignType/
+#align_usedQuiveredCelera_v2Hybrid/ \
+#v2/output_results/mergeNGS_BN/ \
+#./RefAligner2
+#mkdir align_usedQuiveredCelera_v2Hybrid/alignref_noRepeatMask/AssignAlignType/
 
-#step3b
+#step3b: filter alignment cmap in align_usedQuiveredCelera_v2Hybrid/alignref_noRepeatMask/AssignAlignType 
 #R --no-save --args \
 #align_usedQuiveredCelera_v2Hybrid/alignref_noRepeatMask/selectedNewV1Seq.vs.v2Hybrid.xmap \
 #align_usedQuiveredCelera_v2Hybrid/alignref_noRepeatMask/selectedNewV1Seq.vs.v2Hybrid_r.cmap \
@@ -50,7 +51,7 @@ export PERL5LIB=/rhome/cjinfeng/BigData/software/perl5.10.1/perl-5.10.1/lib/:/rh
 #align_usedQuiveredCelera_v2Hybrid/alignref_noRepeatMask/AssignAlignType/sticky.xmap.overhang.count.txt \
 #< scripts/3b_AssignAlignType_commandLineOptions.R
 
-#step4
+#step4: generate reduced_selectedNewV1Seq.vs.v2Hybrid.xmap and adjacent_ngs_overlap_status.txt
 #grep out bad xmap entries
 #cut -f 2-4 align_usedQuiveredCelera_v2Hybrid/alignref_noRepeatMask/AssignAlignType/selectedNewV1Seq.vs.v2Hybrid.xmap.txt > excluded_xmap_query_contigs.txt
 #grep -v -f excluded_xmap_query_contigs.txt \
@@ -62,8 +63,7 @@ export PERL5LIB=/rhome/cjinfeng/BigData/software/perl5.10.1/perl-5.10.1/lib/:/rh
 #align_usedQuiveredCelera_v2Hybrid/alignref_noRepeatMask/ \
 #./ reduced_selectedNewV1Seq.vs.v2Hybrid.xmap 
 
-#step5
-# build fasta sequence
+#step5: build fasta sequence
 module load perl
 python scripts/findOverlapsBetweenContigs.py \
 input_data/asm.scf.fasta \
