@@ -7,7 +7,7 @@
 		<global>
 			<!--<flag attr="refaligner" val0="/mnt/bionf_tmp/apang/triobppAdj2/NA12878/ngs_alignment_pac_bio_mtSinai/write_up/NatureMethods/script_release/RefAligner" display=""/>-->
 			<flag attr="refaligner" val0="/rhome/cjinfeng/BigData/00.RD/Assembly/Pacbio/install/hybrid_scaffolding_na12878/RefAligner" display=""/>
-			<flag attr="maxmem" val0="128" display="Maximum memory (GB)" group="Global options" description="Define the maximum amount of RAM in gigabytes to be used by each process."/>
+			<flag attr="maxmem" val0="88" display="Maximum memory (GB)" group="Global options" description="Define the maximum amount of RAM in gigabytes to be used by each process."/>
 			<flag attr="maxthreads" val0="8" display="Max threads" group="Global options" description="Define maximum number of threads to be used by each process."/>
 		</global>
 		<fasta2cmap>

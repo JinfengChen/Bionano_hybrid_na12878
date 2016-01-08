@@ -3,9 +3,9 @@
 use strict;
 use warnings;
 
-my $v1SeqFile = "input_data/Citrus_v1_quiver_round2.fasta";
-my $v2SeqFile = "input_data/citrus.consensus.fasta";
-my $bngFile = "input_data/out.chr_BspQI_0Kb_0labels.cmap";
+my $v2SeqFile = "input_data/test.fasta";
+my $v1SeqFile = "input_data/test1.fasta";
+my $bngFile = "input_data/scaffold_2_BspQI_0Kb_0labels.cmap";
 mkdir "v1" if (! -e "v1");
 mkdir "v2" if (! -e "v2");
 
